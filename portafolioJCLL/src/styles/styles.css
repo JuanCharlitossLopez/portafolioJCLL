@@ -1,0 +1,87 @@
+/* Estilos para pantallas pequeñas (netbooks)
+@media (max-width: 1024px) {
+    .contenedor_img {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cont_img{
+        order: 1;
+        margin: 5%;
+        align-content: space-between;
+    }
+
+    .img{
+        height: 10rem;
+    }
+    
+    .descripcion, p, h1{
+        font-size: 1;
+        margin: 1%;
+        order: 2;
+        background-color: white;
+        align-content: center;
+        text-align: center;
+    }
+
+    
+}
+
+/* Estilos para pantallas medianas */
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+    .contenedor_img {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont_img{
+        order: 1;
+        margin: 5%;
+        height: 300;
+        align-content: space-between;
+    }
+} */
+
+/* Estilos para pantallas grandes */
+/* @media (min-width: 1281px) {
+    .contenedor_img {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cont_img, img {
+        order: 1;
+        margin: 5%;
+        height: 600;
+        align-content: space-between;
+    }
+} */ 
+
+
+.contenedor_img{
+    display: flex;
+    /* background-color: black; */
+    background-color: #2b3e4e;
+    
+}
+
+.cont_img{
+    order: 1;
+    margin: 5%;
+    height: 500;
+    align-content:space-between;
+    
+}
+
+img{
+    border-radius: 20px;
+}
+
+.descripcion, p, h1{
+    margin: 5%;
+    order: 2;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
