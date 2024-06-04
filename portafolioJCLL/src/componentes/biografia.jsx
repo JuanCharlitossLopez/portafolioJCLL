@@ -15,13 +15,14 @@ const estilos = {
         fontSize: "1.2rem",
         margin: '5rem'
     },
+    
 
 };
 
 export const Yo = () => {
     return (
         <>
-            <h1 style={{margin:"5rem"}}>Juan Carlos Lopez Leon</h1>
+            <h1 style={{margin:"5rem", color: '#2b3e4e' }}>Juan Carlos Lopez Leon</h1>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
             <div className="contenedor" style={estilos.contenedor}>
                 <center><img src={imagenYo} alt="" width={500} /></center>
@@ -47,6 +48,7 @@ export const Yo = () => {
                     <br />
                     <h4>Contacto:</h4>
                     <li>Tel: <a href="tel:+524451136957" target='_blank'>+52 4451136957</a></li>
+                    <li>Correo: <a href="mailto:juancalopez825@gmail.com" target='_blank'>juancalopez825@gmail.com</a></li>
                     <li><a href="https://github.com/JuanCharlitossLopez" target='_blank'>GitHud</a></li>
                     <li><a href="https://www.linkedin.com/in/juan-carlos-lopez-leon-548400291/" target='_blank'>Linkedin</a></li>
                     <br />
