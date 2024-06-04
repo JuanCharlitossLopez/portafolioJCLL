@@ -4,7 +4,7 @@ import proyecto from '../assets/biblioteca.jpg'
 export const ProyectoUno = () => {
     return (
         <>
-        <h1>Proyectos</h1>
+            <h1 style={{margin:'5rem'}}>Proyectos</h1>
             <div className='contenedor_img' >
                 <div className='cont_img'>
                     <img className='img' src={proyecto} alt='Proyecto 1' height={500} />

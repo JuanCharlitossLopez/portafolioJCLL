@@ -54,34 +54,35 @@
         height: 600;
         align-content: space-between;
     }
-} */ 
+} */
 
 
-.contenedor_img{
+.contenedor_img {
     display: flex;
     /* background-color: black; */
     background-color: #2b3e4e;
-    
+
 }
 
-.cont_img{
-    order: 1;
+.cont_img {
+    /* order: 1; */
     margin: 5%;
     height: 500;
-    align-content:space-between;
-    
+    align-content: space-between;
+
 }
 
-img{
+img {
     border-radius: 20px;
 }
 
-.descripcion, p, h1{
+.descripcion,
+p,
+h1 {
     margin: 5%;
-    order: 2;
+    /* order: 2; */
     background-color: white;
     align-content: center;
     text-align: center;
     border-radius: 20px;
 }
-

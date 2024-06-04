@@ -7,32 +7,32 @@ const estilos = {
         fontSize: "1rem",
         textAlign: "center",
         background: "white",
-        
+
     },
     descript: {
         textAlign: "justify",
         padding: "1rem",
         fontSize: "1.2rem",
-        margin: '5rem',
+        margin: '5rem'
     },
-    
+
 };
 
 export const Yo = () => {
     return (
         <>
-        <h1>Juan Carlos Lopez Leon</h1>
+            <h1 style={{margin:"5rem"}}>Juan Carlos Lopez Leon</h1>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
             <div className="contenedor" style={estilos.contenedor}>
                 <center><img src={imagenYo} alt="" width={500} /></center>
-                
+
                 <a href="https://surguanajuato.tecnm.mx/" target='_blank'><p>Ing. Sitemas Computacionales en Instituto Tecnológico Superior del Sur de Guanajuato</p></a>
                 <hr />
                 <div className='descrip' style={estilos.descript}>
                     <h4>Descripcion:</h4>
                     <li><strong>Desarrollo web:</strong> Me apasiona crear sitios web y aplicaciones web. Disfruto aprendiendo nuevos lenguajes de programación y frameworks para construir experiencias web interactivas y atractivas.
                     </li>
-                    <li><strong>Tecnologías emergentes:</strong> Me mantengo actualizado sobre las últimas tendencias en tecnología web, como la inteligencia artificial, el aprendizaje automático y la realidad virtual. 
+                    <li><strong>Tecnologías emergentes:</strong> Me mantengo actualizado sobre las últimas tendencias en tecnología web, como la inteligencia artificial, el aprendizaje automático y la realidad virtual.
                     </li>
                     <li><strong>Diseño UX/UI:</strong> Me interesa por el diseño de interfaces de usuario y la experiencia del usuario. Me gusta crear interfaces web que sean fáciles de usar y estéticamente agradables.
                     </li>
@@ -54,6 +54,7 @@ export const Yo = () => {
                     <li><strong>Convertirme en un desarrollador web full-stack</strong> Desea tener las habilidades y conocimientos necesarios para desarrollar sitios web y aplicaciones web completos desde cero.</li>
                     <li><strong>Trabajar en una empresa de tecnología:</strong> me gustaría trabajar en una empresa innovadora que esté a la vanguardia del desarrollo web.</li>
                     <li><strong>Emprender su propio negocio:</strong>A largo plazo, me gustaría crear su propia empresa de desarrollo web.</li>
+                    <br />
                 </div>
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
