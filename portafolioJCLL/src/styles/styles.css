@@ -77,12 +77,13 @@ img {
 }
 
 .descripcion,
-p,
-h1 {
+p {
+    color: white;
     margin: 5%;
     /* order: 2; */
-    background-color: white;
+    background-color: #1c475d;
     align-content: center;
     text-align: center;
     border-radius: 20px;
 }
+
